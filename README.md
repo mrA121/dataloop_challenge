@@ -11,7 +11,7 @@ cd dataloop_challenge
 python -m venv venv
 pip3 install -r requirements.txt
 ````
-3. Execute program with start_url
+3. Execute program with start_url, results can then be seen in the results.json file
 ````shell
 python crawler.py <start_url: string> <depth: number>
 ````
